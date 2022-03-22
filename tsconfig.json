@@ -1,0 +1,96 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@Components/*": ["Components/*"],
+      "@styles/*": ["styles/*"],
+      "@pages/*": ["pages/*"],
+      "@helpers/*": ["helpers/*"],
+      "@entities/*": ["entities/*"],
+      "@layout/*": ["layout/*"],
+      "@Api/*": ["Api/*"],
+      "@Redux/*": ["Redux/*"],
+      "@Model/*": ["Model/*"],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config0.js"],
+  "exclude": ["node_modules"]
+}
+
+
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "esModuleInterop": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "importHelpers": true,
+//     "jsx": "preserve",
+//     "baseUrl": ".",
+//     "paths": {
+//       "@components/*": [
+//         "components/*"
+//       ],
+//       "@styles/*": [
+//         "styles/*"
+//       ],
+//       "@pages/*": [
+//         "pages/*"
+//       ],
+//       "@helpers/*": [
+//         "helpers/*"
+//       ],
+//       "@entities/*": [
+//         "entities/*"
+//       ],
+//       "@layout/*": [
+//         "layout/*"
+//       ],
+//       "@Api/*": [
+//         "Api/*"
+//       ],
+//       "@Redux/*": [
+//         "Redux/*"
+//       ],
+//       "@Model/*": [
+//         "Model/*"
+//       ]
+//     },
+//     "incremental": true
+//   },
+//   "include": [
+//     "next-env.d.ts",
+//     "**/*.ts",
+//     "**/*.tsx",
+//     "Service/Emitter.js"
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
